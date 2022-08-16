@@ -11,10 +11,10 @@
 carpentry: incubator
 
 # Overall title for pages.
-title: Lesson Title
+title: Carpentries Workbench practice
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~
+created: 2022-08-16
 
 # Comma-separated list of keywords for the lesson
 keywords: software, data, lesson, The Carpentries
