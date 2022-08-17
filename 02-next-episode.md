@@ -6,14 +6,15 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- How do you edit episodes?
+- How do you keep changes updated online?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
 - Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Demonstrate how to edit episode content using version control
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -139,6 +140,7 @@ print(5+4)
 - Use `.Rmd` files for episodes when you need to generate output
 - Run `sandpaper::check_lesson()` to identify any issues with your lesson
 - Run `sandpaper::build_lesson()` to preview your lesson locally
+- Create new branches to change episodes, and contribute using pull requests
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
