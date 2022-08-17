@@ -1,5 +1,5 @@
 ---
-title: 'next episode'
+title: 'Next episode - testing changes'
 teaching: 10
 exercises: 2
 ---
@@ -105,6 +105,33 @@ dynamic reports with {knitr}, so we now use mathjax to describe this:
 `$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
 
 Cool, right?
+
+
+
+## Code
+
+Code can be added as a block without output:
+
+```r
+
+print(2+3)
+
+```
+
+... or as a block with output:
+
+
+```r
+print(5+4)
+```
+
+```{.output}
+[1] 9
+```
+
+
+
+
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
